@@ -82,6 +82,8 @@ describe('App Routes', function () {
                 status !== 'COMPLETED' ?
                     expect(is_valid_enum).to.equal(true) :
                     expect(_.isString(response)).to.equal(true);
+
+                done();
             }
         });
     });
