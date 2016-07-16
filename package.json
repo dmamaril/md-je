@@ -4,7 +4,7 @@
   "description": "massdrop-je",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha specs/api.spec.js"
   },
   "author": "Don Mamaril",
   "license": "ISC",
@@ -15,5 +15,10 @@
     "lodash": "^4.13.1",
     "q": "^1.4.1",
     "request": "^2.73.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "supertest": "^1.2.0"
   }
 }
