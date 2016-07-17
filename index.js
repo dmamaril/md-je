@@ -1,5 +1,5 @@
 var package = require('./package.json');
-var PORT 	= process.env.PORT || 8080;
+var PORT    = process.env.PORT || 8080;
 
 require('./lib/server').listen(PORT);
 
